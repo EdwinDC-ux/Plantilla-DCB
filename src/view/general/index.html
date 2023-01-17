@@ -21,8 +21,37 @@
     <!-- Normalize -->
     <link rel="stylesheet" href="../../assets/normalize-8.0.1/normalize.css">
     <!-- StyleSheets -->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/index.css">
 </head>
-<body>
+<body class="principal">
+    <div class="abs-center">
+        <div class="logo text-center">
+            <img class="logo__img" src="../../assets/img/header_DCB-1.png" alt="logo-dcb">
+        </div>
+        <form>
+            <h1>Nombre del sistema</h1>
+            <fieldset class="row">
+                <label for="username" class="col-12">Nombre de usuario<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="username" id="username" class="col-12">
+                <label for="passkey" class="col-12">Contraseña<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="password" name="key" id="passkey" class="col-12">
+            </fieldset>
+            <fieldset class="row">
+                <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="aviso-privacidad" target="_blank">Aviso de privacidad</a>
+            </fieldset>
+            <div class="d-grid gap-4">
+                <input class="btn dcb-btn-primary" type="button" value="Ingresar">
+                <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta">
+            </div>
+        </form>
+        <footer class="copyrights">
+            <h6 class="col-12">
+                copyrights© 2023 / <a href="http://www.ingenieria.unam.mx" target="_blank">Facultad de
+                Ingeniería</a> / <a class="copyrights__enlace" href="http://www.unam.mx" target="_blank">UNAM</a>
+            </h6>
+        </footer>
+    </div>
     <!-- JQuery -->
     <script src="../../assets/jquery/jquery-3.6.3.min.js"></script>
     <!-- Bootstrap 5 -->
