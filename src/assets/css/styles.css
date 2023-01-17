@@ -33,6 +33,7 @@ img {
 }
 form {
     text-align: center;
+    border-radius: 10px;
     box-shadow: 1rem -1rem 1.5rem var(--gris-oscuro),-1rem 1rem 1.5rem var(--gris-oscuro),1rem 1rem 1.5rem var(--gris-oscuro),-1rem -1rem 1.5rem var(--gris-oscuro);
 }
 .abs-center {
