@@ -1,0 +1,27 @@
+.logo {
+    width: min(50rem, 70%);
+    margin: 0 auto;
+}
+form {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: min(60rem, 80%);
+}
+.copyrights {
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .logo {
+        justify-self: end;
+        margin: 0;
+    }
+    form {
+        margin: 0;
+        width: 40rem;
+    }
+    .copyrights {
+        grid-column: 1 / 3;
+    }
+}
