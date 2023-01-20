@@ -36,6 +36,12 @@ form {
     border-radius: 10px;
     box-shadow: 1rem -1rem 1.5rem var(--gris-oscuro),-1rem 1rem 1.5rem var(--gris-oscuro),1rem 1rem 1.5rem var(--gris-oscuro),-1rem -1rem 1.5rem var(--gris-oscuro);
 }
+.input-text {
+    border-radius: 5px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 15pt;
+}
 .abs-center {
     display: flex;
     flex-direction: column;
@@ -44,7 +50,10 @@ form {
     min-height: 100vh;
 }
 .aviso-privacidad {
-    font-size: smaller;
+    font-size: 8pt;
+}
+.btn {
+    font-size: 15pt;
 }
 .dcb-btn-primary {
     color: var(--rojo);
@@ -70,9 +79,17 @@ form {
     border: 1px solid var(--oscuro);
     background-color: var(--oscuro);
 }
+.required {
+    color: var(--rojo);
+}
 @media (min-width: 992px) {
     .abs-center {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .btn-container {
+        display: flex!important;
+        gap: 0!important;
+        justify-content: space-between;
     }
 }
