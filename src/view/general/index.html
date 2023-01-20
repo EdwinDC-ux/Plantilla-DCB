@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../assets/normalize-8.0.1/normalize.css">
     <!-- StyleSheets -->
     <link rel="stylesheet" href="../../assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body class="principal">
     <div class="abs-center">
@@ -32,22 +32,22 @@
         <form>
             <h1>Nombre del sistema</h1>
             <fieldset class="row">
-                <label for="username" class="col-12">Nombre de usuario<abbr title="required" aria-label="required">*</abbr></label>
-                <input type="text" name="username" id="username" class="col-12">
-                <label for="passkey" class="col-12">Contraseña<abbr title="required" aria-label="required">*</abbr></label>
-                <input type="password" name="key" id="passkey" class="col-12">
+                <label for="username" class="col-12">Nombre de usuario<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="username" id="username" class="col-12 input-text">
+                <label for="passkey" class="col-12">Contraseña<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="password" name="key" id="passkey" class="col-12 input-text">
             </fieldset>
-            <fieldset class="row">
-                <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="aviso-privacidad" target="_blank">Aviso de privacidad</a>
-            </fieldset>
-            <div class="d-grid gap-4">
+            <div class="d-grid gap-4 btn-container">
                 <input class="btn dcb-btn-primary" type="button" value="Ingresar">
                 <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta">
             </div>
+            <fieldset>
+                <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="aviso-privacidad" target="_blank">Aviso de privacidad</a>
+            </fieldset>
         </form>
         <footer class="copyrights">
             <h6 class="col-12">
-                copyrights© 2023 / <a href="http://www.ingenieria.unam.mx" target="_blank">Facultad de
+                copyrights© <span id="copy-year">2022</span> / <a href="http://www.ingenieria.unam.mx" target="_blank">Facultad de
                 Ingeniería</a> / <a class="copyrights__enlace" href="http://www.unam.mx" target="_blank">UNAM</a>
             </h6>
         </footer>
@@ -59,5 +59,6 @@
     <!-- JQueryConfirm -->
     <script src="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.js"></script>
     <!-- Scripts -->
+    <script src="../../assets/js/script.js"></script>
 </body>
 </html>
