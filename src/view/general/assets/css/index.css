@@ -9,6 +9,9 @@ form {
     padding: 1rem;
     width: min(60rem, 80%);
 }
+.login-data {
+    gap: 1rem;
+}
 .copyrights {
     text-align: center;
 }
