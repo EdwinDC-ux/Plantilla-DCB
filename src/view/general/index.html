@@ -24,21 +24,21 @@
     <link rel="stylesheet" href="../../assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
-<body class="principal">
+<body>
     <div class="abs-center">
         <div class="logo text-center">
             <img class="logo__img" src="../../assets/img/header_DCB-1.png" alt="logo-dcb">
         </div>
         <form>
-            <h1>Nombre del sistema</h1>
-            <fieldset class="row">
+            <h1>Nombre del sistema <span class="h2">Inicio de sesión</span></h1>
+            <fieldset class="row login-data">
                 <label for="username" class="col-12">Nombre de usuario<abbr class="required" title="required" aria-label="required">*</abbr></label>
-                <input type="text" name="username" id="username" class="col-12 input-text">
+                <input type="text" name="username" id="username" class="col-12 input-text" required>
                 <label for="passkey" class="col-12">Contraseña<abbr class="required" title="required" aria-label="required">*</abbr></label>
-                <input type="password" name="key" id="passkey" class="col-12 input-text">
+                <input type="password" name="key" id="passkey" class="col-12 input-text" required>
             </fieldset>
             <div class="d-grid gap-4 btn-container">
-                <input class="btn dcb-btn-primary" type="button" value="Ingresar">
+                <input class="btn dcb-btn-primary" type="submit" value="Ingresar">
                 <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta">
             </div>
             <fieldset>
