@@ -36,6 +36,9 @@ form {
     border-radius: 10px;
     box-shadow: 1rem -1rem 1.5rem var(--gris-oscuro),-1rem 1rem 1.5rem var(--gris-oscuro),1rem 1rem 1.5rem var(--gris-oscuro),-1rem -1rem 1.5rem var(--gris-oscuro);
 }
+abbr {
+    text-decoration: none!important;
+}
 .input-text {
     border-radius: 5px;
     padding-top: 0.3rem;
