@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-top: 6rem;
 }
-form {
+.form {
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -21,7 +21,7 @@ form {
         justify-self: end;
         margin: 0;
     }
-    form {
+    .form {
         margin: 0;
         width: 41rem;
         height: 45rem;
