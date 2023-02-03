@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/dcb.png">
+    <link rel="apple-touch-icon" href="../../assets/img/dcb.png">
+    <!-- Title  (change me) -->
+    <title>Document - Registro</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="../../assets/bootstrap-5/bootstrap.min.css">
+    <!-- JQueryConfirm -->
+    <link rel="stylesheet" href="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../../assets/normalize-8.0.1/normalize.css">
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+<body>
+    <div class="abs-center">
+        <div class="logo text-center">
+            <img class="logo__img" src="../../assets/img/header_DCB-1.png" alt="logo-dcb">
+        </div>
+        <form id="signup" class="form">
+            <h1>Nombre del sistema <span class="h2">Registro</span></h1>
+            <fieldset class="row signup-data">
+                <label for="name" class="col-12">Nombre<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="name" id="name" class="col-12 input-text" required>
+                <label for="paterno" class="col-12">Apellido paterno<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="paterno" id="paterno" class="col-12 input-text" required>
+                <label for="materno" class="col-12">Apellido materno</label>
+                <input type="text" name="materno" id="materno" class="col-12 input-text">
+                <label for="mail" class="col-12">Correo<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="email" name="mail" id="mail" class="col-12 input-text" required>
+                <label for="nacimiento" class="col-12">Fecha de nacimiento<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="date" name="nacimiento" id="nacimiento" class="col-12 input-text" required>
+                <label for="username" class="col-12">Nombre de usuario<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="username" id="username" class="col-12 input-text" required>
+                <label for="new__passkey" class="col-12">Contraseña<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="password" name="key" id="new__passkey" class="col-12 input-text recomend" required>
+                <label for="confpasskey" class="col-12">Confirma tu contraseña<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="password" name="confkey" id="confpasskey" class="col-12 input-text" required>
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <label class="col-12">Género<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                        <div class="col-4">
+                            <div class="row">
+                                <input type="radio" name="genero" id="femenino" class="col-12" value="F" required>
+                                <label for="femenino" class="col-12">Femenino</label>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <input type="radio" name="genero" id="masculino" class="col-12" value="M" required>
+                                <label for="masculino" class="col-12">Masculino</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input type="checkbox" name="aviso" id="aviso" value="1" required>
+                    <label for="aviso">He leído y acepto el <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="fw-bold" target="_blank">Aviso de privacidad</a></label>
+                </div>
+            </fieldset>
+            <div class="d-grid gap-4 btn-container">
+                <input class="btn dcb-btn-primary" type="submit" value="Registrarme">
+                <input class="btn dcb-btn-secondary" type="button" value="Ya tengo cuenta" id="con-cuenta">
+            </div>
+        </form>
+        <footer class="copyrights">
+            <h6 class="col-12">
+                copyrights© <span id="copy-year">2022</span> / <a href="http://www.ingenieria.unam.mx" target="_blank">Facultad de
+                Ingeniería</a> / <a class="copyrights__enlace" href="http://www.unam.mx" target="_blank">UNAM</a>
+            </h6>
+        </footer>
+    </div>
+    <!-- JQuery -->
+    <script src="../../assets/jquery/jquery-3.6.3.min.js"></script>
+    <!-- Bootstrap 5 -->
+    <script src="../../assets/bootstrap-5/bootstrap.bundle.min.js"></script>
+    <!-- JQueryConfirm -->
+    <script src="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.js"></script>
+    <!-- Scripts -->
+    <script src="../../assets/js/script.js"></script>
+    <script src="./assets/js/borrame.js"></script>
+</body>
+</html>
