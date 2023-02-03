@@ -2,7 +2,7 @@
     width: min(50rem, 70%);
     margin: 0 auto;
 }
-form {
+.form {
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -20,7 +20,7 @@ form {
         justify-self: end;
         margin: 0;
     }
-    form {
+    .form {
         margin: 0;
         width: 40rem;
     }
