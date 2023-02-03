@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <!-- Icon -->
-    <link rel="shortcut icon" href="../../assets/img/dcb.ico">
-    <link rel="apple-touch-icon" href="../../assets/img/dcb.ico">
+    <link rel="shortcut icon" href="../../assets/img/dcb.png">
+    <link rel="apple-touch-icon" href="../../assets/img/dcb.png">
     <!-- Title  (change me) -->
     <title>Document - Ingreso</title>
     <!-- Fonts -->
@@ -29,7 +29,7 @@
         <div class="logo text-center">
             <img class="logo__img" src="../../assets/img/header_DCB-1.png" alt="logo-dcb">
         </div>
-        <form>
+        <form id="login" class="form">
             <h1>Nombre del sistema <span class="h2">Inicio de sesión</span></h1>
             <fieldset class="row login-data">
                 <label for="username" class="col-12">Nombre de usuario<abbr class="required" title="required" aria-label="required">*</abbr></label>
@@ -39,7 +39,7 @@
             </fieldset>
             <div class="d-grid gap-4 btn-container">
                 <input class="btn dcb-btn-primary" type="submit" value="Ingresar">
-                <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta">
+                <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta" id="sin-cuenta">
             </div>
             <fieldset>
                 <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="aviso-privacidad" target="_blank">Aviso de privacidad</a>
@@ -60,5 +60,6 @@
     <script src="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.js"></script>
     <!-- Scripts -->
     <script src="../../assets/js/script.js"></script>
+    <script src="./assets/js/borrame.js"></script>
 </body>
 </html>
