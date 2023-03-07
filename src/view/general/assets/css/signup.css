@@ -1,0 +1,37 @@
+.logo {
+    width: min(50rem, 70%);
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.form {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: min(60rem, 80%);
+}
+.signup-data {
+    gap: 1rem;
+}
+.copyrights {
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .logo {
+        justify-self: end;
+        margin: 0;
+    }
+    .form {
+        margin: 0;
+        width: 41rem;
+        height: 45rem;
+    }
+    .signup-data {
+        height: 21rem;
+        margin-bottom: 5rem;
+        overflow-y: scroll;
+    }
+    .copyrights {
+        grid-column: 1 / 3;
+    }
+}

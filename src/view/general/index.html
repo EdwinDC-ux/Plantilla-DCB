@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../../assets/img/dcb.png">
+    <link rel="apple-touch-icon" href="../../assets/img/dcb.png">
+    <!-- Title  (change me) -->
+    <title>Document - Ingreso</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="../../assets/bootstrap-5/bootstrap.min.css">
+    <!-- JQueryConfirm -->
+    <link rel="stylesheet" href="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../../assets/normalize-8.0.1/normalize.css">
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <div class="abs-center">
+        <div class="logo text-center">
+            <img class="logo__img" src="../../assets/img/header_DCB-1.png" alt="logo-dcb">
+        </div>
+        <form id="login" class="form">
+            <h1>Nombre del sistema <span class="h2">Inicio de sesión</span></h1>
+            <fieldset class="row login-data">
+                <label for="username" class="col-12">Nombre de usuario<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="username" id="username" class="col-12 input-text" required>
+                <label for="passkey" class="col-12">Contraseña<abbr class="required" title="required" aria-label="required">*</abbr></label>
+                <input type="password" name="key" id="passkey" class="col-12 input-text" required>
+            </fieldset>
+            <div class="d-grid gap-4 btn-container">
+                <input class="btn dcb-btn-primary" type="submit" value="Ingresar">
+                <input class="btn dcb-btn-secondary" type="button" value="No tengo cuenta" id="sin-cuenta">
+            </div>
+            <fieldset>
+                <a href="https://www.ingenieria.unam.mx/paginas/aviso_privacidad.php" class="aviso-privacidad" target="_blank">Aviso de privacidad</a>
+            </fieldset>
+        </form>
+        <footer class="copyrights">
+            <h6 class="col-12">
+                copyrights© <span id="copy-year">2022</span> / <a href="http://www.ingenieria.unam.mx" target="_blank">Facultad de
+                Ingeniería</a> / <a class="copyrights__enlace" href="http://www.unam.mx" target="_blank">UNAM</a>
+            </h6>
+        </footer>
+    </div>
+    <!-- JQuery -->
+    <script src="../../assets/jquery/jquery-3.6.3.min.js"></script>
+    <!-- Bootstrap 5 -->
+    <script src="../../assets/bootstrap-5/bootstrap.bundle.min.js"></script>
+    <!-- JQueryConfirm -->
+    <script src="../../assets/jqueryconfirm-3.3.2/jquery-confirm.min.js"></script>
+    <!-- Scripts -->
+    <script src="../../assets/js/script.js"></script>
+    <script src="./assets/js/borrame.js"></script>
+</body>
+</html>
